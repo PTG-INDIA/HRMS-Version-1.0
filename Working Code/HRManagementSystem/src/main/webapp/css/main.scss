@@ -1,0 +1,224 @@
+@font-face{font-family:"Segoe MDL2 Assets";src:url("../fonts/SEGMDL2.TTF")}
+p.icon{
+	font-family: Segoe MDL2 Assets;
+}
+
+.portlet-spring-mvc {
+	
+	
+.table tbody tr:hover td{ background-color: #607D8B !important;color:white !important}
+
+li.active > a.hidden-xs {
+ display: block!important;
+}
+li.active > a.visible-xs {
+	display: none!important; 
+}
+.nav-pills.nav-wizard > li {
+  position: relative;
+   text-align: center;
+  overflow: visible;
+  border-right: 10px solid #fff;
+  border-left: 12px solid #fff;
+ width: 30%;
+}
+.nav-pills.nav-wizard > li:first-child {
+  border-left: 0;
+}
+.nav-pills.nav-wizard > li:first-child a {
+  /* border-radius: 5px 0 0 5px; */
+}
+.nav-pills.nav-wizard > li:last-child {
+  border-right: 0;
+}
+.nav-pills.nav-wizard > li:last-child a {
+  border-radius: 0 5px 5px 0;
+}
+.nav-pills.nav-wizard > li a {
+  border-radius: 0;
+  background-color: #cfd7dc;
+  padding: 10px;
+  margin-left: -1%;
+}
+.portlet-content portlet-content-editable {
+background-color: #EFEFEF !important;
+}
+a {text-decoration: none !important;color:black}
+.nav-pills.nav-wizard > li .nav-arrow {
+  position: absolute;
+  top: 0px;
+  right: -20px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 0 20px 20px;
+  border-color: transparent transparent transparent #cfd7dc;
+  z-index: 150;
+}
+.nav-pills.nav-wizard > li .nav-wedge {
+  position: absolute;
+  top: -0.7px;
+  left: -23px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 0 20px 20px;
+  border-color: #cfd7dc #cfd7dc #cfd7dc transparent;
+  z-index: 150;
+}
+
+.table-hover>tbody>tr>td.active:hover,.table-hover>tbody>tr>th.active:hover,.table-hover>tbody>tr.active:hover>td,.table-hover>tbody>tr:hover>.active,.table-hover>tbody>tr.active:hover>th {
+    background-color: #5f7c8a
+}
+.nav-pills.nav-wizard > li:hover .nav-arrow {
+  border-color: transparent transparent transparent #aaa;
+}
+.nav-pills.nav-wizard > li:hover .nav-wedge {
+  border-color: #aaa #aaa #aaa transparent;
+}
+.nav-pills.nav-wizard > li:hover a {
+  background-color: #aaa;
+  color: #fff;
+}
+.nav-pills.nav-wizard > li.active .nav-arrow {
+  border-color: transparent transparent transparent #00838f;
+}
+.nav-pills.nav-wizard > li.active .nav-wedge {
+  border-color: #00838f #00838f #00838f transparent;
+}
+.nav-pills.nav-wizard > li.active a {
+  background-color: #00838f;
+}
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;	
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+
+
+body {
+	font-size: 13px;
+}
+
+.yui3-skin-sam .yui3-datatable-odd .yui3-datatable-cell {
+    background-color: white !important;
+}
+
+.panel-default>.panel-heading {
+    color: black;
+    background-color: #CFD7DC;
+    border-color: white !important;
+}
+
+.panel-group .panel {
+    margin-bottom: 48px !important;
+    border-radius: 4px;
+}
+
+.yui3-datatable-table {
+width:100%;
+}
+
+.portlet-content-container {
+ margin-top: -1% !important;
+ }
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: white !important;
+}
+
+.panel-heading .accordion-toggle:after {
+	/* symbol for "opening" panels */
+	font-family: 'Glyphicons Halflings';
+	/* essential for enabling glyphicon */
+	content: "\e114"; /* adjust as needed, taken from bootstrap.css */
+	float: right; /* adjust as needed */
+	color: grey; /* adjust as needed */
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+	/* symbol for "collapsed" panels */
+	content: "\e080"; /* adjust as needed, taken from bootstrap.css */
+}
+
+/* .navbar-default .navbar-nav > .active{
+  color: #000; background: red;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000;
+  background: red;
+} */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus
+	{
+	color: black !important;
+	background-color: #e4e4e4;
+	/* border:1px solid #d8d8d8; */
+	border-bottom-color: transparent;
+	cursor: default;
+}
+
+.nav>li>a, .nav>li>span, .nav-heading>a, .nav-heading>span {
+	display: block;
+	padding: 9px 42px !important;
+	position: relative;
+	word-wrap: break-word;
+}
+
+.buttonDropdownClass {
+	background-color: white !important;
+	border: 1px solid lightgrey !important;
+}
+
+.tableClass {
+font-size: 12px;
+    margin-top: -13px;
+}
+
+.tableHeader {
+color: #136cb9;
+font-family: sans-pro;
+}
+.design  {
+padding-left:25px;
+background:url(../../img/PlusIcon.PNG) no-repeat top left;
+display: inline-block;
+height: 17px;
+width: 50px;
+}
+	
+	
+}
