@@ -257,7 +257,7 @@ body {
 }
 .yui3-skin-sam .yui3-datatable-header,.yui3-skin-sam .reviewTab .yui3-datatable-header{
 	background-image : none !important;
-	padding: 8px;
+	padding: 2px;
 	border-bottom: 1px solid #cbcbcb;
     border-width: 0 0 1px 0;
     font-size: 12px !important;
@@ -285,5 +285,27 @@ body {
 .yui3-skin-sam .reviewTab .yui3-datatable-header{
 	display: none;
 }
-	
+
+.headingStyle{
+	color: #00838f;
+	font-family: sans-serif;
+	margin-bottom: 3%;
+	margin-top: 0%;
+}
+.coloumnHeading{
+	margin-left: 16px;
+	background-color: #efefef !important;
+}
+.panelHeading{
+	width: 105%;
+	margin-left: -2.5%;
+}
+.headingStyle{
+	text-decoration: none !important;
+}
+.datatableStyle{
+	margin-top: -3%;
+	font-size: 12px;
+	margin-left: -3%;
+}
 	
