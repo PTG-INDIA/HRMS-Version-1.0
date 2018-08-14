@@ -222,6 +222,8 @@ body {
 .buttonDropdownClass {
 	background-color: white !important;
 	border: 1px solid lightgrey !important;
+	padding: 1px 8px !important; 
+	font-size: 12px !important;
 }
 
 .tableClass {
@@ -295,17 +297,72 @@ body {
 .coloumnHeading{
 	margin-left: 16px;
 	background-color: #efefef !important;
+	width: 53%;
 }
 .panelHeading{
-	width: 105%;
-	margin-left: -2.5%;
+	width: 100%;
+	margin-left: 0.5%;
 }
-.headingStyle{
+.headingStyleAchor{
 	text-decoration: none !important;
 }
 .datatableStyle{
 	margin-top: -3%;
 	font-size: 12px;
 	margin-left: -3%;
+	width: 105%
 }
+.initiateHistory{
+	display:none;
+}
+.emailLabel{
+	padding-left: 230px;
+}
+.searchInput{
+	width: 90% !important;
+}
+.initiateButton{
+	zoom: 0.7;
+}
+.initiateDropDownMenu{
+	font-size: 10px !important;
+	min-width: 82px !important
+}
+.oneTimeTitle{
+	width: 44%; 
+	margin-left: 22px; 
+	background-color: white;
+}
+.oneTimePanel{
+	width: 105.5%; 
+	margin-left: -2.8%;
+}
+.oneTimePanelHeading{
+	background-color: #5f7c8a !important; 
+	color: white !important;
+}
+.oneTimeFontStyle{
+	font-size: 12px;
+}
+.oneTimeFontFamily{
+	color: #00838f; 
+	font-family: sans-serif;
+}
+.oneTimeRowLeft{
+	margin-left: 2% !important;
+}
+.oneTimeDesc{
+	margin-left: -2.5% !important;
+}
+.oneTimeRowDesc{
+	margin-left: 0px !important;
+}
+.oneTimeRowButton{
+	width: 80%; 
+	margin-left: 11%;
+}
+.oneTimeRowTopBorder{
+	border-top: 1px solid #EFEFEF;
+}
+
 	
