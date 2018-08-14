@@ -7,6 +7,10 @@
 		<icon>/icon.png</icon>
 		<requires-namespaced-parameters>false</requires-namespaced-parameters>
 		<header-portlet-css>/css/main.css</header-portlet-css>
+		<header-portlet-javascript>/js/initiate.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/review.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/approve.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/dashboard.js</header-portlet-javascript>
 		<css-class-wrapper>portlet-spring-mvc</css-class-wrapper>
 	</portlet>
 	<role-mapper>
