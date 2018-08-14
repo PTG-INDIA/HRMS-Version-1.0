@@ -365,5 +365,39 @@ body {
 .oneTimeRowTopBorder{
 	border-top: 1px solid #EFEFEF;
 }
+.panelBodyStyles{
+	background-color: #efefef !important;
+}
+.mainPanleStyle{
+	border: none !important;
+}
+.mainNavTab{
+	width: 11% !important;
+	max-height: 41px;
+}
+.mainNavTabAchor{
+	height: 40px;
+	background-color: #6995ac; 
+	text-decoration: none !important;
+}
+.mainNavTabPara{
+	margin: 0px -9px 0px; 
+	margin-right: 2px;
+}
+.initiateNavTab{
+	margin-left: -2% !important;
+}
+.initiateNavTabAchor{
+	height: 40px; 
+	text-decoration: none !important; 
+	margin-left: -5% !important;
+}
+.approveNavTabAchor{
+	height: 40px;
+	text-decoration: none !important;
+}
+.approveNavTab{
+	padding-bottom: 1.6px;
+}
 
 	
