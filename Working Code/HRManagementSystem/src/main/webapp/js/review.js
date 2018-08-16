@@ -1,6 +1,16 @@
 
-YUI().use('datatable', 'datatable-paginator', 'datatype-number',
+YUI().use('datatable', 'datatable-paginator', 'datatype-number','event',
 		'aui-datepicker', function(Y) {
+	
+	Y.on('click', function(evt){
+		console.log("clicked on this icon");
+		var parenttd = evt.currentTarget.ancestor('div');
+		var dropdown = parenttd.next();//'.selecthomeorgdropdown'
+		parenttd.toggleView();
+		dropdown.toggleView();
+	},'.iconedithomeamt');
+	
+	//iconedithomeremarks
 
 	var ReviewData = [ {
 		Type : 'One Time Bonus',
@@ -363,5 +373,6 @@ YUI().use('datatable', 'datatable-paginator', 'datatype-number',
 	});
 
 	reviewTable8.render('#myReviewDataTable8');
-
+	
+	
 });

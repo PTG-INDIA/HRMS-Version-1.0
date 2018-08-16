@@ -249,7 +249,12 @@
 		</div>
 		<form class="oneTimeFontStyle">
 			<div class="form-group">
-				<h3 class="oneTimeFontFamily">#SNO-98765432123</h3>
+				<h3 class="oneTimeFontFamily">Transaction ID #SNO-98765432123</h3>
+				<p>One-Time Bonus</p>
+			</div>
+			<div class="form-group">
+				<h3 class="headingStyle">Incoming Request from Venkat</h3>
+				<h3 class="headingStyle">One-time Bonus(Spot Award)</h3>
 			</div>
 			<div class="form-group initiateHistory">
 				<label for="email"> Transaction Type &nbsp; &nbsp;&nbsp; </label>
@@ -282,16 +287,15 @@
 					</div>
 					<div class="col-md-4"></div>
 				</div>
-			</div>
-			<div class="form-group oneTimeRowTop">
 				<div class="row">
 					<div class="col-md-4">
 						<div class="row oneTimeRowLeft">AMOUNT</div>
 					</div>
-					<div class="col-xs-4">
-						<div class="row">$100</div>
+					<div class="col-md-8">
+						<div class="row">$100 &nbsp;&nbsp;<p class="icon iconedithomeamt">&#xE104;</p></div>
+						<div class="hide row"><input type="text" name="oneTimeAmount" value="$100"></input>&nbsp;&nbsp;<p class="icon iconselecthomeorg">&#xE001;</p></div>
 					</div>
-					<div class="col-md-4"></div>
+					<div class="col-xs-4"></div>
 				</div>
 			</div>
 			<div class="form-group oneTimeRowTop">
@@ -299,8 +303,9 @@
 					<div class="col-md-4">
 						<div class="row oneTimeRowLeft">PAY DATE</div>
 					</div>
-					<div class="col-xs-4">
-						<div class="row">06/24/2018</div>
+					<div class="col-md-8">
+						<div class="row">06/24/2018 &nbsp;&nbsp;<p class="icon iconedithomeamt">&#xE104;</p></div>
+						<div class="hide row"><input type="date" name="oneTimeAmount" value="06/24/2018"></input>&nbsp;&nbsp;<p class="icon iconselecthomeorg">&#xE001;</p></div>
 					</div>
 					<div class="col-md-4"></div>
 				</div>
@@ -321,7 +326,7 @@
 					<div class="col-md-4">
 						<div class="row oneTimeRowLeft">REMARKS</div>
 					</div>
-					<div class="col-md-8 oneTimeDesc">Lorem ipsum
+					<div class="col-md-8 oneTimeDesc iconRemarks">Lorem ipsum
 						dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia
 						neque nec lorem viverra rhoncus. Nunc ac libero accumsan,
 						dignissim diam in, tempus odio. Vivamus vitae hendrerit massa.
@@ -340,7 +345,6 @@
 						transaction.<br>
 						<div class="row oneTimeRowDesc">Dept: IT InfraStructure</div>
 						<div class="row oneTimeRowDesc">PTA: $4000</div>
-						<div class="row oneTimeRowDesc">Earn Code: EBTAGHUSD</div>
 					</div>
 				</div>
 			</div>
