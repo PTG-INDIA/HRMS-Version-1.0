@@ -3,32 +3,286 @@ YUI().use('datatable', 'datatable-paginator', 'datatype-number',
 		'aui-datepicker', function(Y) {
 
 	var ReviewData = [ {
-		Date : '24/07/2018',
-		Type : 'One Time Bonus John A. Smith 24$ 24/07/2018'
+		Type : 'One Time Bonus',
+		EmpName : 'John A. Smith',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
 	}, {
-		Date : '24/07/2018',
-		Type : 'One Time Bonus Joan B. Jones 24$ 24/07/2018'
+		Type : 'One Time Bonus',
+		EmpName : 'Joan B. Jones',
+		InitiatorName : 'NY',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
 	}, {
-		Date : '24/07/2018',
-		Type : 'One Time Bonus Bob C. Uncle 24$ 24/07/2018',
+		Type : 'One Time Bonus',
+		EmpName : 'Bob C. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
 	}, {
-		Date : '24/07/2018',
-		Type : 'One Time Bonus John D. Smith 24$ 24/07/2018',
+		Type : 'One Time Bonus',
+		EmpName : 'John D. Smith',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
 	}, {
-		Date : '24/07/2018',
-		Type : 'One Time Bonus Bob F. Uncle 24$ 24/07/2018',
-	} ]; 
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	}, {
+		Type : 'One Time Bonus',
+		EmpName : 'Bob F. Uncle',
+		InitiatorName : 'CA',
+		Amount : '24$',
+		EffectiveDate : '24/07/2018',
+		DueDate : '24/07/2018'
+	} ];
 
-	var columnsForReview = [
-		{
-			key: 'Date',
-			label: 'Date'
-		},
-		{
-			key: 'Type',
-			label: 'Type'
-		}
-		];
+	var columnsForReview = [ {
+		key : 'Type',
+		label : 'Type'
+	}, {
+		key : 'EmpName',
+		label : 'Employee Name'
+	}, {
+		key : 'InitiatorName',
+		label : 'Initiator Name',
+	}, {
+		key : 'Amount',
+		label : 'Amount'
+	}, {
+		key : 'EffectiveDate',
+		label : 'Effective Date',
+	}, {
+		key : 'DueDate',
+		label : 'Due Date',
+	} ];
 
 	var reviewTable = new Y.DataTable({
 		columns: columnsForReview,
