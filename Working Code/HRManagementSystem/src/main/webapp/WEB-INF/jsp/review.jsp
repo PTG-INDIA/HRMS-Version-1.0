@@ -293,7 +293,7 @@
 					</div>
 					<div class="col-md-8">
 						<div class="row">$100 &nbsp;&nbsp;<p class="icon iconedithomeamt">&#xE104;</p></div>
-						<div class="hide row"><input type="text" name="oneTimeAmount" value="$100"></input>&nbsp;&nbsp;<p class="icon iconselecthomeorg">&#xE001;</p></div>
+						<div class="hide row"><input type="text" name="oneTimeAmount" value="$100"></input>&nbsp;&nbsp;<p class="icon iconSaveDetails">&#xE001;</p></div>
 					</div>
 					<div class="col-xs-4"></div>
 				</div>
@@ -305,7 +305,7 @@
 					</div>
 					<div class="col-md-8">
 						<div class="row">06/24/2018 &nbsp;&nbsp;<p class="icon iconedithomeamt">&#xE104;</p></div>
-						<div class="hide row"><input type="date" name="oneTimeAmount" value="06/24/2018"></input>&nbsp;&nbsp;<p class="icon iconselecthomeorg">&#xE001;</p></div>
+						<div class="hide row"><input type="date" name="oneTimeAmount" value="06/24/2018"></input>&nbsp;&nbsp;<p class="icon iconSaveDetails">&#xE001;</p></div>
 					</div>
 					<div class="col-md-4"></div>
 				</div>
@@ -326,13 +326,25 @@
 					<div class="col-md-4">
 						<div class="row oneTimeRowLeft">REMARKS</div>
 					</div>
-					<div class="col-md-8 oneTimeDesc iconRemarks">Lorem ipsum
+					<div class="col-md-8 oneTimeDesc iconRemarks">
+						<p class="icon iconeditOneTimeText">&#xE104;</p>Lorem ipsum
+							dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia
+							neque nec lorem viverra rhoncus. Nunc ac libero accumsan,
+							dignissim diam in, tempus odio. Vivamus vitae hendrerit massa.
+							Integer placerat leo ut bibendum vulputate. Duis bibendum nulla
+							velit, et sollicitudin sem vehicula vel. Donec placerat dui ut
+							ante hendrerit malesuada. Praesent
+					</div>
+					<div class="hide col-md-8 oneTimeDesc iconRemarks">
+						<textarea  rows="4" cols="43">Lorem ipsum
 						dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia
 						neque nec lorem viverra rhoncus. Nunc ac libero accumsan,
 						dignissim diam in, tempus odio. Vivamus vitae hendrerit massa.
 						Integer placerat leo ut bibendum vulputate. Duis bibendum nulla
 						velit, et sollicitudin sem vehicula vel. Donec placerat dui ut
-						ante hendrerit malesuada. Praesent</div>
+						ante hendrerit malesuada. Praesent
+					</textarea>&nbsp;&nbsp;<p class="icon iconSaveDetails iconTopTextarea">&#xE001;</p>
+					</div>
 				</div>
 			</div>
 			<div class="form-group oneTimeRowTop">
@@ -341,8 +353,14 @@
 						<div class="row oneTimeRowLeft"> FUNDING SOURCE & <br> JUSTIFICATION</div>
 					</div>
 					<div class="col-md-8 oneTimeDesc">
-						The employee’s owning department will fully fund this
-						transaction.<br>
+						<div>
+							<div><p class="icon iconeditOneTimeText">&#xE104;</p>The employee&#39;s owning department will fully fund this transaction.</div>
+							<div class="hide">
+								<input type="radio"value="department" checked>The employee&#39;s owning department will fully fund this transaction.<br/>
+								<input type="radio"value="another">I will specify another funding allocation.
+								<p class="icon iconSaveDetails iconeditOneTimeText">&#xE001;</p>
+							</div><br>
+						</div>
 						<div class="row oneTimeRowDesc">Dept: IT InfraStructure</div>
 						<div class="row oneTimeRowDesc">PTA: $4000</div>
 					</div>

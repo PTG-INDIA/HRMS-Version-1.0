@@ -1,16 +1,37 @@
 
-YUI().use('datatable', 'datatable-paginator', 'datatype-number','event',
+YUI().use('datatable', 'datatable-paginator', 'datatype-number','event','panel',
 		'aui-datepicker', function(Y) {
 	
 	Y.on('click', function(evt){
-		console.log("clicked on this icon");
 		var parenttd = evt.currentTarget.ancestor('div');
-		var dropdown = parenttd.next();//'.selecthomeorgdropdown'
+		var dropdown = parenttd.next();
 		parenttd.toggleView();
 		dropdown.toggleView();
-	},'.iconedithomeamt');
+	},'.iconedithomeamt, .iconeditOneTimeText'); 
 	
-	//iconedithomeremarks
+	Y.on('click', function(evt){
+		var panel = new Y.Panel(
+				{
+					width:"1em",
+					contentBox: Y.Node.create('<div class="lightbox gfspanel" />'),
+					boundingBox: Y.Node.create('<div class="lightboxBB confirmationmessage" />'),
+					headerContent: '<span class="lightboxTitle"> <span class="titleKeyWord">Confirmation</span></span><span class="lightboxControls"></span>',
+					bodyContent: '<div class="descr"><span>'
+						+'You have saved changes on this page succefully.'+'</div>'
+						+'</span></div>',
+						zIndex:2,
+						width: '50%',
+						modal : true,
+						centered: true,
+				});
+		panel.render();
+		panel.show();
+		
+		var parenttd = evt.currentTarget.ancestor('div');
+		var dropdown = parenttd.previous();
+		parenttd.toggleView();
+		dropdown.toggleView();
+	},'.iconSaveDetails');
 
 	var ReviewData = [ {
 		Type : 'One Time Bonus',

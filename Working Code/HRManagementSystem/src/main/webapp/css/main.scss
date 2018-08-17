@@ -395,9 +395,15 @@ body {
 .approveNavTab{
 	padding-bottom: 1.6px;
 }
-.iconedithomeamt, .iconselecthomeorg, .iconedithomeremarks{
+.iconedithomeamt, .iconSaveDetails, .iconedithomeremarks{
  display:inline;
  word-wrap: break-word;
+}
+.iconTopTextarea{
+	vertical-align: top;
+}
+.iconeditOneTimeText{
+	margin-left: 90%;	
 }
 
 
